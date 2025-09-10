@@ -266,7 +266,7 @@ main {
 	display: none;
 }
 .hero-visual .content .model {
-	background-image: url("assets/youtube_v2/slider_3d/images/model2.png");
+	background-image: url("assets/youtube_v2/slider_3d/model2.png");
 	position: absolute;
 	height: 55vh;
 	width: 25vw;
@@ -1309,7 +1309,9 @@ main {
 		gap: 20px;
 		align-items: center;
 	}
-	.hero-text { text-align: center; }
+	.hero-text {
+		text-align: center;
+	}
 	.hero-visual {
 		order: -1;
 		min-height: 320px;
@@ -1317,7 +1319,9 @@ main {
 		width: 100%;
 	}
 	/* Hide the rotating slider on small screens */
-	.hero-visual .slider { display: none !important; }
+	.hero-visual .slider {
+		display: none !important;
+	}
 	/* Make the model image prominent and centered */
 	.hero-visual .content .model {
 		left: 50%;
@@ -1330,5 +1334,7 @@ main {
 		background-position: center bottom;
 	}
 	/* Also tone down the 3D ring if present */
-	.slider3d { display: none !important; }
+	.slider3d {
+		display: none !important;
+	}
 }
