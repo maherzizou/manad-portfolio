@@ -1,0 +1,110 @@
+[
+  {
+    "id": "football-analysis",
+    "title": "Analyse Joueur Football (Power BI)",
+    "subtitle": "Performance, xG, tirs, passes — thème club",
+    "excerpt": "Dashboard immersif par joueur: KPIs clés, carte de tirs, tendances, avec mise en forme conditionnelle et couleurs de l\u2019équipe.",
+    "featured": true,
+    "cover": "../youtube_v2/slider_1/img/2.jpg",
+    "images": [
+      "../youtube_v2/auto_slider/images/slider2_1.png",
+      "../youtube_v2/auto_slider/images/slider2_2.png",
+      "../youtube_v2/auto_slider/images/slider2_3.png",
+      "../youtube_v2/auto_slider/images/slider2_4.png"
+    ],
+    "tags": ["Football Analytics", "DAX", "Power Query"],
+    "highlights": [
+      "Palette dynamique aux couleurs du club",
+      "KPIs: buts, passes d\u00E9cisives, xG, xA",
+      "Segmentation par poste et comp\u00E9tition",
+      "Pages mobiles optimis\u00E9es"
+    ],
+    "description": "Un rapport orient\u00E9 scouting qui met en avant la performance d\u2019un joueur (ou d\u2019un effectif), avec vues th\u00E9matiques, filtres intuitifs et navigation guid\u00E9e. DAX pour calculs avanc\u00E9s xG/xA, mesures saisonni\u00E8res et rolling averages.",
+    "powerbi_embed_url": ""
+  },
+  {
+    "id": "logistics-kpis",
+    "title": "Logistique KPI — Suivi Op\u00E9rationnel",
+    "subtitle": "Adh\u00E9rence au planning, PCT, stock coverage",
+    "excerpt": "Pilotage visuel des KPIs supply: alerting couleur, drill-through ateliers/lignes et journaux d\u2019anomalies.",
+    "featured": true,
+    "cover": "../youtube_v2/slider_1/img/1.jpg",
+    "images": [
+      "../youtube_v2/auto_slider/images/slider1_1.png",
+      "../youtube_v2/auto_slider/images/slider1_5.png",
+      "../youtube_v2/auto_slider/images/slider1_8.png"
+    ],
+    "tags": ["KPI", "Planning", "Stock"],
+    "highlights": [
+      "Alerting seuils & codes couleur",
+      "Drill-through vers lignes et OF",
+      "Comparatifs hebdo/mensuel S&OP"
+    ],
+    "description": "Rapport op\u00E9rationnel pour managers supply: PCT, adh\u00E9rence au plan, couverture de stock, goulots de production. Mise en qualit\u00E9 des donn\u00E9es et performances optimis\u00E9es (aggregations, incremental refresh selon besoin).",
+    "powerbi_embed_url": ""
+  },
+  {
+    "id": "ekanban-qr",
+    "title": "Tra\u00E7abilit\u00E9 e\u2011Kanban par QR",
+    "subtitle": "Flux mati\u00E8res s\u00E9curis\u00E9s par QR code",
+    "excerpt": "e\u2011Kanban: QR codes pour fiabiliser l\u2019approvisionnement des lignes et tracer les mouvements.",
+    "featured": false,
+    "cover": "../youtube_v2/scroll_animation/images/banner.jpg",
+    "images": [
+      "../youtube_v2/auto_slider/images/slider2_6.png",
+      "../youtube_v2/auto_slider/images/slider2_7.png",
+      "../youtube_v2/auto_slider/images/slider2_8.png"
+    ],
+    "tags": ["e-Kanban", "QR", "Process"],
+    "highlights": [
+      "Tra\u00E7abilit\u00E9 scannable jusqu\u2019\u00E0 la ligne",
+      "Indicateurs temps r\u00E9el d\u2019appros",
+      "R\u00E9duction erreurs logistiques"
+    ],
+    "description": "Mise en place d\u2019un e\u2011Kanban bas\u00E9 QR: standardisation, scans, et pilotage visuel sous Power BI pour suivre lead time, ruptures et taux de service.",
+    "powerbi_embed_url": ""
+  },
+  {
+    "id": "master-data-95",
+    "title": "Qualit\u00E9 Master Data — 95%",
+    "subtitle": "Accurateness et contr\u00F4les de coh\u00E9rence",
+    "excerpt": "Projet Master Data: gouvernance, contr\u00F4les automatiques, suivi des corrections.",
+    "featured": false,
+    "cover": "../youtube_v2/scroll_animation/images/Untitled-1.png",
+    "images": [
+      "../youtube_v2/auto_slider/images/slider1_2.png",
+      "../youtube_v2/auto_slider/images/slider1_3.png",
+      "../youtube_v2/auto_slider/images/slider1_4.png"
+    ],
+    "tags": ["Master Data", "Contr\u00F4le", "Qualit\u00E9"],
+    "highlights": [
+      "R\u00E8gles de validation automatiques",
+      "Suivi taux d\u2019erreurs par entit\u00E9",
+      "Tableau de bord correctifs"
+    ],
+    "description": "Standardisation et contr\u00F4les automatis\u00E9s pour atteindre 95% de qualit\u00E9 de donn\u00E9es: suivi de la conformit\u00E9 et des plans d\u2019actions.",
+    "powerbi_embed_url": ""
+  },
+  {
+    "id": "stock-coverage",
+    "title": "Couverture de stock & S&OP",
+    "subtitle": "Visibilit\u00E9 multi-niveaux des stocks",
+    "excerpt": "Vue couverture stock: seuils cibles, alertes, projection de conso et ruptures.",
+    "featured": false,
+    "cover": "../youtube_v2/slider_1/img/3.jpg",
+    "images": [
+      "../youtube_v2/auto_slider/images/slider1_6.png",
+      "../youtube_v2/auto_slider/images/slider1_7.png",
+      "../youtube_v2/auto_slider/images/slider1_9.png"
+    ],
+    "tags": ["Stock", "S&OP", "Simulation"],
+    "highlights": [
+      "Projection conso & lead times",
+      "Alertes couverture par classe ABC",
+      "Axes hi\u00E9rarchiques multi-sites"
+    ],
+    "description": "Report stock coverage pour piloter la s\u00E9curit\u00E9 d\u2019approvisionnement: calcul des jours de couverture, seuils dynamiques et comparaison au plan.",
+    "powerbi_embed_url": ""
+  }
+]
+
