@@ -5,12 +5,12 @@
     "subtitle": "Performance, xG, tirs, passes — thème club",
     "excerpt": "Dashboard immersif par joueur: KPIs clés, carte de tirs, tendances, avec mise en forme conditionnelle et couleurs de l\u2019équipe.",
     "featured": true,
-    "cover": "../youtube_v2/slider_1/img/2.jpg",
+    "cover": "assets/youtube_v2/slider_1/img/2.jpg",
     "images": [
-      "../youtube_v2/auto_slider/images/slider2_1.png",
-      "../youtube_v2/auto_slider/images/slider2_2.png",
-      "../youtube_v2/auto_slider/images/slider2_3.png",
-      "../youtube_v2/auto_slider/images/slider2_4.png"
+      "assets/youtube_v2/auto_slider/images/slider2_1.png",
+      "assets/youtube_v2/auto_slider/images/slider2_2.png",
+      "assets/youtube_v2/auto_slider/images/slider2_3.png",
+      "assets/youtube_v2/auto_slider/images/slider2_4.png"
     ],
     "tags": ["Football Analytics", "DAX", "Power Query"],
     "highlights": [
@@ -28,11 +28,11 @@
     "subtitle": "Adh\u00E9rence au planning, PCT, stock coverage",
     "excerpt": "Pilotage visuel des KPIs supply: alerting couleur, drill-through ateliers/lignes et journaux d\u2019anomalies.",
     "featured": true,
-    "cover": "../youtube_v2/slider_1/img/1.jpg",
+    "cover": "assets/youtube_v2/slider_1/img/1.jpg",
     "images": [
-      "../youtube_v2/auto_slider/images/slider1_1.png",
-      "../youtube_v2/auto_slider/images/slider1_5.png",
-      "../youtube_v2/auto_slider/images/slider1_8.png"
+      "assets/youtube_v2/auto_slider/images/slider1_1.png",
+      "assets/youtube_v2/auto_slider/images/slider1_5.png",
+      "assets/youtube_v2/auto_slider/images/slider1_8.png"
     ],
     "tags": ["KPI", "Planning", "Stock"],
     "highlights": [
@@ -49,11 +49,11 @@
     "subtitle": "Flux mati\u00E8res s\u00E9curis\u00E9s par QR code",
     "excerpt": "e\u2011Kanban: QR codes pour fiabiliser l\u2019approvisionnement des lignes et tracer les mouvements.",
     "featured": false,
-    "cover": "../youtube_v2/scroll_animation/images/banner.jpg",
+    "cover": "assets/youtube_v2/scroll_animation/images/banner.jpg",
     "images": [
-      "../youtube_v2/auto_slider/images/slider2_6.png",
-      "../youtube_v2/auto_slider/images/slider2_7.png",
-      "../youtube_v2/auto_slider/images/slider2_8.png"
+      "assets/youtube_v2/auto_slider/images/slider2_6.png",
+      "assets/youtube_v2/auto_slider/images/slider2_7.png",
+      "assets/youtube_v2/auto_slider/images/slider2_8.png"
     ],
     "tags": ["e-Kanban", "QR", "Process"],
     "highlights": [
@@ -70,11 +70,11 @@
     "subtitle": "Accurateness et contr\u00F4les de coh\u00E9rence",
     "excerpt": "Projet Master Data: gouvernance, contr\u00F4les automatiques, suivi des corrections.",
     "featured": false,
-    "cover": "../youtube_v2/scroll_animation/images/Untitled-1.png",
+    "cover": "assets/youtube_v2/scroll_animation/images/Untitled-1.png",
     "images": [
-      "../youtube_v2/auto_slider/images/slider1_2.png",
-      "../youtube_v2/auto_slider/images/slider1_3.png",
-      "../youtube_v2/auto_slider/images/slider1_4.png"
+      "assets/youtube_v2/auto_slider/images/slider1_2.png",
+      "assets/youtube_v2/auto_slider/images/slider1_3.png",
+      "assets/youtube_v2/auto_slider/images/slider1_4.png"
     ],
     "tags": ["Master Data", "Contr\u00F4le", "Qualit\u00E9"],
     "highlights": [
@@ -91,11 +91,11 @@
     "subtitle": "Visibilit\u00E9 multi-niveaux des stocks",
     "excerpt": "Vue couverture stock: seuils cibles, alertes, projection de conso et ruptures.",
     "featured": false,
-    "cover": "../youtube_v2/slider_1/img/3.jpg",
+    "cover": "assets/youtube_v2/slider_1/img/3.jpg",
     "images": [
-      "../youtube_v2/auto_slider/images/slider1_6.png",
-      "../youtube_v2/auto_slider/images/slider1_7.png",
-      "../youtube_v2/auto_slider/images/slider1_9.png"
+      "assets/youtube_v2/auto_slider/images/slider1_6.png",
+      "assets/youtube_v2/auto_slider/images/slider1_7.png",
+      "assets/youtube_v2/auto_slider/images/slider1_9.png"
     ],
     "tags": ["Stock", "S&OP", "Simulation"],
     "highlights": [
@@ -107,4 +107,3 @@
     "powerbi_embed_url": ""
   }
 ]
-

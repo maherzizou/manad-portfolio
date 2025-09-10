@@ -16,7 +16,7 @@ async function loadProjects() {
 
 function getFallbackProjects() {
 	// Use same photos as the 3D slider template (dragon_*)
-	const base = "../youtube_v2/slider_3d/images";
+	const base = "assets/youtube_v2/slider_3d/images";
 	const covers = Array.from(
 		{ length: 10 },
 		(_, i) => `${base}/dragon_${i + 1}.jpg`
@@ -43,7 +43,7 @@ function mountFeaturedSlider(projects) {
 	// If requested, use the same image set as the original 3D template
 	let list = [];
 	if (slider.dataset.template === "slider3d") {
-		const base = "../youtube_v2/slider_3d/images";
+		const base = "assets/youtube_v2/slider_3d/images";
 		list = Array.from({ length: 10 }, (_, i) => ({
 			id: `tpl-${i + 1}`,
 			title: `Template ${i + 1}`,

@@ -266,7 +266,7 @@ main {
 	display: none;
 }
 .hero-visual .content .model {
-	background-image: url("../youtube_v2/slider_3d/images/model2.png");
+	background-image: url("assets/youtube_v2/slider_3d/images/model2.png");
 	position: absolute;
 	height: 55vh;
 	width: 25vw;
@@ -383,7 +383,7 @@ main {
 	border-radius: 50%;
 	background-image: var(
 			--head-url,
-			url("../youtube_v2/gsap_animation/img/1.png")
+			url("assets/youtube_v2/gsap_animation/img/1.png")
 		),
 		radial-gradient(farthest-side, #0000 60%, #0008 100%);
 	background-size: var(--logo-size, cover), 100% 100%;
