@@ -49,7 +49,7 @@
 		"subtitle": "Flux mati\u00E8res s\u00E9curis\u00E9s par QR code",
 		"excerpt": "e\u2011Kanban: QR codes pour fiabiliser l\u2019approvisionnement des lignes et tracer les mouvements.",
 		"featured": false,
-		"cover": "assets/youtube_v2/scroll_animation/images/banner.jpg",
+		"cover": "assets/youtube_v2/banner.jpg",
 		"images": [
 			"assets/youtube_v2/auto_slider/images/slider2_6.png",
 			"assets/youtube_v2/auto_slider/images/slider2_7.png",
@@ -70,7 +70,7 @@
 		"subtitle": "Accurateness et contr\u00F4les de coh\u00E9rence",
 		"excerpt": "Projet Master Data: gouvernance, contr\u00F4les automatiques, suivi des corrections.",
 		"featured": false,
-		"cover": "assets/youtube_v2/scroll_animation/images/Untitled-1.png",
+		"cover": "assets/youtube_v2/Untitled-1.png",
 		"images": [
 			"assets/youtube_v2/auto_slider/images/slider1_2.png",
 			"assets/youtube_v2/auto_slider/images/slider1_3.png",
