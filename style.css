@@ -184,9 +184,6 @@ main {
 	--c: #ea4335;
 }
 .contact-quick li:nth-child(2) {
-	--c: #2ecc71;
-}
-.contact-quick li:nth-child(3) {
 	--c: #0a66c2;
 }
 .contact-quick li a {
@@ -219,190 +216,43 @@ main {
 	flex-wrap: wrap;
 	padding-bottom: 20px;
 }
-
 .hero-visual {
 	position: relative;
 	height: 100%;
-	max-width: 560px;
+	max-width: 520px;
 	margin-inline: auto;
-	/* Allow 3D ring to overflow the box so it's visible */
-	overflow: visible;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
 }
-/* Map template slider styles into hero right column */
-.hero-visual .slider {
+.hero-visual::before {
+	content: "";
 	position: absolute;
-	width: 12vh;
-	height: 15vh;
-	top: 15vh;
-	left: calc(50% - 6vh);
-	transform-style: preserve-3d;
-	transform: perspective(1000px);
-	animation: autoRun 20s linear infinite;
-	z-index: 2;
-}
-.hero-visual .slider .item {
-	position: absolute;
-	inset: 0 0 0 0;
-	transform: rotateY(
-			calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
-		)
-		translateZ(30vh);
-}
-.hero-visual .slider .item img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-/* Bring back template character inside hero */
-.hero-visual .content {
-	position: absolute;
-	inset: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-}
-.hero-visual .content h1 {
-	display: none;
-}
-.hero-visual .content .model {
-	background-image: url("assets/youtube_v2/slider_3d/model2.png");
-	position: absolute;
-	height: 55vh;
-	width: 25vw;
-	transform: translate(-50%, 0);
-	align-self: flex-end;
-	inset: 0;
-	background-size: auto 90%;
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	z-index: 1;
-	pointer-events: none;
-}
-
-/* 3D slider — like template, sizes halved */
-.slider3d {
-	--ring-radius: 275px;
-	position: absolute;
-	inset: 0;
-	margin: auto;
-	width: 100px;
-	height: 125px;
-	transform-style: preserve-3d;
-	transform: perspective(1000px) rotateX(-16deg);
-	animation: autoRun 20s linear infinite;
-	z-index: 2;
-}
-@keyframes autoRun {
-	from {
-		transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
-	}
-	to {
-		transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
-	}
-}
-.slider3d .item {
-	position: absolute;
-	inset: 0;
-	transform: rotateY(
-			calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
-		)
-		translateZ(var(--ring-radius));
-}
-.slider3d .item figure {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-.slider3d .item img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-.slider3d .item .badge {
-	position: absolute;
-	bottom: -40px;
-	left: 50%;
-	transform: translateX(-50%);
-	background: #ffffff10;
-	backdrop-filter: blur(4px);
-	padding: 6px 10px;
-	border-radius: 8px;
-	font-size: 12px;
-	border: 1px solid #ffffff22;
-	white-space: nowrap;
-}
-
-/* Overrides for embedded template slider: half size and centered */
-.slider-embed .banner .slider {
-	width: 100px !important;
-	height: 125px !important;
-	left: calc(50% - 50px) !important;
-}
-.slider-embed .banner .slider .item {
-	transform: rotateY(
-			calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
-		)
-		translateZ(275px) !important;
-}
-@media screen and (max-width: 1023px) {
-	.slider-embed .banner .slider {
-		width: 80px !important;
-		height: 100px !important;
-		left: calc(50% - 40px) !important;
-	}
-	.slider-embed .banner .slider .item {
-		transform: rotateY(
-				calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
-			)
-			translateZ(150px) !important;
-	}
-}
-@media screen and (max-width: 767px) {
-	.slider-embed .banner .slider {
-		width: 50px !important;
-		height: 75px !important;
-		left: calc(50% - 25px) !important;
-	}
-	.slider-embed .banner .slider .item {
-		transform: rotateY(
-				calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)
-			)
-			translateZ(90px) !important;
-	}
-}
-
-/* Central head anchor */
-.hero-head {
-	--size: 180px;
-	position: absolute;
-	inset: 0;
-	margin: auto;
-	width: var(--size);
-	height: var(--size);
-	border-radius: 50%;
-	background-image: var(
-			--head-url,
-			url("assets/youtube_v2/gsap_animation/img/1.png")
-		),
-		radial-gradient(farthest-side, #0000 60%, #0008 100%);
-	background-size: var(--logo-size, cover), 100% 100%;
-	background-position: center, center;
-	border: 1px solid #ffffff22;
-	box-shadow: 0 10px 30px #0006;
-	z-index: 3;
-	pointer-events: none;
+	inset: 14% 12% 22%;
+	background: radial-gradient(
+		closest-side,
+		color-mix(in srgb, var(--primary) 18%, transparent),
+		transparent 70%
+	);
+	filter: blur(22px);
+	opacity: 0.7;
 }
 .hero-visual::after {
 	content: "";
 	position: absolute;
-	inset: auto 0 40px 0;
+	bottom: 18px;
+	left: 50%;
 	width: 60%;
-	height: 28px;
-	margin-inline: auto;
+	height: 24px;
+	transform: translateX(-50%);
 	filter: blur(8px);
 	background: radial-gradient(closest-side, #0008, #0000 70%);
-	z-index: 0;
+}
+.hero-visual img {
+	width: min(360px, 34vw);
+	height: auto;
+	z-index: 1;
+	filter: drop-shadow(0 18px 30px #0007);
 }
 
 /* Featured strip (auto slider style) */
@@ -1277,14 +1127,8 @@ main {
 
 /* Responsive */
 @media (max-width: 1024px) {
-	.hero-visual {
-		min-height: 360px;
-		height: 380px;
-	}
-	.slider3d {
-		--ring-radius: 150px;
-		width: 80px;
-		height: 100px;
+	.hero-visual img {
+		width: min(320px, 42vw);
 	}
 	.projects-grid .project-card {
 		grid-column: span 6;
@@ -1303,7 +1147,6 @@ main {
 	.site-header nav a:not(.btn-primary) {
 		display: none;
 	}
-	/* Hero responsive: stack, show model first, hide rotating cards */
 	.hero-content {
 		flex-direction: column;
 		gap: 20px;
@@ -1314,27 +1157,10 @@ main {
 	}
 	.hero-visual {
 		order: -1;
-		min-height: 320px;
-		height: 340px;
 		width: 100%;
+		margin-bottom: 6px;
 	}
-	/* Hide the rotating slider on small screens */
-	.hero-visual .slider {
-		display: none !important;
-	}
-	/* Make the model image prominent and centered */
-	.hero-visual .content .model {
-		left: 50%;
-		top: auto;
-		bottom: 0;
-		transform: translate(-50%, 0);
-		width: 70vw;
-		height: 42vh;
-		background-size: contain;
-		background-position: center bottom;
-	}
-	/* Also tone down the 3D ring if present */
-	.slider3d {
-		display: none !important;
+	.hero-visual img {
+		width: min(320px, 70vw);
 	}
 }

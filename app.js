@@ -15,12 +15,12 @@ async function loadProjects() {
 }
 
 function getFallbackProjects() {
-	// Use same photos as the 3D slider template (dragon_*)
-	const base = "assets/youtube_v2/slider_3d";
-	const covers = Array.from(
-		{ length: 10 },
-		(_, i) => `${base}/dragon_${i + 1}.jpg`
-	);
+	// Simple local placeholders if projects.json cannot be loaded
+	const covers = [
+		"assets/youtube_v2/slider_1/1.jpg",
+		"assets/youtube_v2/slider_1/2.jpg",
+		"assets/youtube_v2/slider_1/3.jpg",
+	];
 	return covers.map((src, i) => ({
 		id: `tpl-${i + 1}`,
 		title: `Template ${i + 1}`,
@@ -33,50 +33,6 @@ function getFallbackProjects() {
 		highlights: ["Visuel de démonstration"],
 		description: "Données de démonstration utilisées localement.",
 	}));
-}
-
-// Featured 3D slider
-function mountFeaturedSlider(projects) {
-	const slider = $("#featuredSlider");
-	if (!slider) return;
-
-	// If requested, use the same image set as the original 3D template
-	let list = [];
-	if (slider.dataset.template === "slider3d") {
-		const base = "assets/youtube_v2/slider_3d";
-		list = Array.from({ length: 10 }, (_, i) => ({
-			id: `tpl-${i + 1}`,
-			title: `Template ${i + 1}`,
-			cover: `${base}/dragon_${i + 1}.jpg`,
-		}));
-	} else {
-		list = projects.filter((p) => p.featured);
-	}
-
-	const q = Math.max(1, list.length);
-	slider.style.setProperty("--quantity", q);
-	slider.innerHTML = list
-		.map(
-			(p, idx) => `
-    <div class="item" style="--position:${idx + 1}" title="${p.title}">
-      <figure>
-        <img src="${p.cover}" alt="${p.title}" />
-      </figure>
-      <div class="badge">${p.title}</div>
-    </div>
-  `
-		)
-		.join("");
-
-	// Click through (only if project exists in list)
-	$$(".slider3d .item").forEach((el, i) => {
-		el.addEventListener("click", () => {
-			const p = list[i];
-			if (p && p.id && !p.id.startsWith("tpl-")) {
-				window.location.href = `project.html?id=${encodeURIComponent(p.id)}`;
-			}
-		});
-	});
 }
 
 // Running strip chips (auto slider style)
@@ -312,7 +268,6 @@ function setupTags() {
 (async function () {
 	try {
 		const projects = await loadProjects();
-		mountFeaturedSlider(projects);
 		mountStrip(projects);
 		mountGrid(projects);
 		setupReveal();
