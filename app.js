@@ -38,51 +38,31 @@ function getFallbackProjects() {
 const stripItems = [
 	{
 		label: "Chaîne logistique",
-		image: "assets/image-competence1.jpg",
+		image: "assets/image.png",
 	},
 	{
 		label: "Transformation digitale",
-		image: "assets/image-competence2.jpg",
+		image: "assets/transformation.png",
 	},
 	{
 		label: "Power BI",
-		image: "assets/image-competence3.jpg",
+		image: "assets/powerBI.png",
 	},
 	{
 		label: "Amélioration continue",
-		image: "assets/image-competence4.jpg",
+		image: "assets/ameliorationContinue.png",
 	},
 	{
-		label: "Pilotage KPI",
-		image: "assets/image-competence1.jpg",
+		label: "Pilotage des KPI",
+		image: "assets/pilotageKPI.png",
 	},
 	{
-		label: "Data analytics",
-		image: "assets/image-competence2.jpg",
-	},
-	{
-		label: "Qualité des données",
-		image: "assets/image-competence3.jpg",
-	},
-	{
-		label: "Reporting & dashboards",
-		image: "assets/image-competence4.jpg",
+		label: "Analyse de données",
+		image: "assets/analyse.png",
 	},
 	{
 		label: "Planification & S&OP",
-		image: "assets/image-competence1.jpg",
-	},
-	{
-		label: "Excellence opérationnelle",
-		image: "assets/image-competence2.jpg",
-	},
-	{
-		label: "Automatisation",
-		image: "assets/image-competence3.jpg",
-	},
-	{
-		label: "Gestion de la performance",
-		image: "assets/image-competence4.jpg",
+		image: "assets/planification.png",
 	},
 ];
 

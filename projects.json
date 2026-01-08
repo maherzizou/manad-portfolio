@@ -23,7 +23,7 @@
       "Visuels essentiels et bonnes pratiques",
       "Publication dans Power BI Service"
     ],
-    "description": "Formation id\u00e9ale pour d\u00e9buter: installation, import de donn\u00e9es, transformations simples, mod\u00e8le en \u00e9toile et cr\u00e9ation de visuels. Exercices guid\u00e9s et cas pratiques orient\u00e9s m\u00e9tier.",
+    "description": "<p><strong>D\u00e9roul\u00e9 :</strong> prise en main de Power BI Desktop, import des donn\u00e9es, transformations essentielles dans Power Query, puis construction d'un mod\u00e8le simple. Atelier de cr\u00e9ation des visuels cl\u00e9s, mise en page et storytelling basique.</p><p><strong>Ce qui est acquis :</strong></p><ul><li>Cr\u00e9er un rapport complet et lisible</li><li>Mettre en place un mod\u00e8le en \u00e9toile simple</li><li>\u00c9crire des mesures de base fiables</li><li>Publier et partager dans Power BI Service</li></ul>",
     "powerbi_embed_url": ""
   },
   {
@@ -49,7 +49,7 @@
       "Relations et cardinalit\u00e9s",
       "Optimisation des performances"
     ],
-    "description": "Approfondissement Power Query: transformations, fonctions, erreurs, fusion/append. Mod\u00e9lisation: sch\u00e9ma en \u00e9toile, mesures de base, bonnes pratiques de performance.",
+    "description": "<p><strong>D\u00e9roul\u00e9 :</strong> transformations avanc\u00e9es (fusion, append, colonnes personnalis\u00e9es), gestion des erreurs, param\u00e8tres et requ\u00eates. Mod\u00e9lisation en \u00e9toile, relations, cardinalit\u00e9s et optimisation des performances.</p><p><strong>Ce qui est acquis :</strong></p><ul><li>Nettoyer et structurer des donn\u00e9es complexes</li><li>Construire un mod\u00e8le en \u00e9toile performant</li><li>Ma\u00eetriser les relations et cardinalit\u00e9s</li><li>R\u00e9duire les temps de rafra\u00eechissement</li></ul>",
     "powerbi_embed_url": ""
   },
   {
@@ -75,7 +75,7 @@
       "KPI personnalis\u00e9s par m\u00e9tier",
       "Bonnes pratiques de performance"
     ],
-    "description": "Approche progressive du DAX: contexte d'\u00e9valuation, variables, fonctions cl\u00e9s, time intelligence. Cas pratiques pour cr\u00e9er des KPI adapt\u00e9s \u00e0 vos besoins.",
+    "description": "<p><strong>D\u00e9roul\u00e9 :</strong> contexte d'\u00e9valuation, mesures essentielles, variables, time intelligence et construction de KPI m\u00e9tiers. Ateliers de refactorisation pour am\u00e9liorer la performance.</p><p><strong>Ce qui est acquis :</strong></p><ul><li>\u00c9crire des mesures robustes et lisibles</li><li>Construire un calendrier et des KPI temporels</li><li>Adapter les indicateurs aux besoins m\u00e9tiers</li><li>Optimiser la performance des calculs</li></ul>",
     "powerbi_embed_url": ""
   },
   {
@@ -101,7 +101,7 @@
       "Navigation et interaction",
       "Guidage par les couleurs"
     ],
-    "description": "M\u00e9thode de conception centr\u00e9e utilisateur: structure de page, narration, choix de visuels, coh\u00e9rence graphique. Atelier refonte de rapports existants.",
+    "description": "<p><strong>D\u00e9roul\u00e9 :</strong> cadrage du besoin, hi\u00e9rarchie visuelle, choix des graphiques, navigation et interactions. Atelier de refonte d'un dashboard existant avec r\u00e8gles de design et narration.</p><p><strong>Ce qui est acquis :</strong></p><ul><li>Structurer un dashboard orient\u00e9 d\u00e9cision</li><li>Am\u00e9liorer la lisibilit\u00e9 et l'exp\u00e9rience utilisateur</li><li>Appliquer des r\u00e8gles de design coh\u00e9rentes</li><li>Raconter une histoire claire avec les donn\u00e9es</li></ul>",
     "powerbi_embed_url": ""
   },
   {
@@ -127,7 +127,7 @@
       "Partage et permissions",
       "Cycle de vie des rapports"
     ],
-    "description": "Mise en place des bonnes pratiques: workspaces, r\u00f4les, RLS, dataflows, publication et gouvernance. Checklists pour une adoption durable.",
+    "description": "<p><strong>D\u00e9roul\u00e9 :</strong> organisation des workspaces, publication, partage, s\u00e9curit\u00e9 (RLS), dataflows et cycle de vie. Mise en place d'une gouvernance simple et durable.</p><p><strong>Ce qui est acquis :</strong></p><ul><li>D\u00e9ployer et maintenir des rapports en production</li><li>S\u00e9curiser l'acc\u00e8s avec RLS et permissions</li><li>Structurer workspaces et apps</li><li>Mettre en place des standards de gouvernance</li></ul>",
     "powerbi_embed_url": ""
   }
 ]

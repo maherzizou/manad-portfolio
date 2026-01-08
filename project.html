@@ -1,183 +1,267 @@
 <!DOCTYPE html>
 <html lang="fr" data-theme="light">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formation — Power BI</title>
-    <link rel="icon" href="assets/youtube_v2/logo.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container">
-        <a href="index.html" class="brand">
-          <img src="assets/youtube_v2/logo.svg" alt="MM" />
-          <span>Mustapha MANAD</span>
-        </a>
-        <nav>
-          <a href="index.html#formations">Formations</a>
-          <a href="index.html#about">À propos</a>
-          <button
-            class="theme-toggle"
-            id="themeToggle"
-            type="button"
-            aria-label="Passer en mode sombre"
-            aria-pressed="false">
-            <svg
-              class="icon icon-moon"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-              focusable="false">
-              <path
-                d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
-            </svg>
-            <svg
-              class="icon icon-sun"
-              viewBox="0 0 24 24"
-              aria-hidden="true"
-              focusable="false">
-              <circle cx="12" cy="12" r="4" fill="none" />
-              <path
-                d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
-                fill="none" />
-            </svg>
-          </button>
-          <a href="index.html#contact" class="btn-primary">Contact</a>
-        </nav>
-      </div>
-    </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formation Power BI — Mustapha MANAD</title>
+		<meta
+			name="description"
+			content="Détails des formations Power BI: programme, objectifs pédagogiques et démos." />
+		<meta property="og:title" content="Formation Power BI — Mustapha MANAD" />
+		<meta
+			property="og:description"
+			content="Programme, objectifs et démo Power BI pour vos équipes." />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="fr_FR" />
+		<meta property="og:site_name" content="Mustapha MANAD" />
+		<meta property="og:image" content="assets/youtube_v2/banner.jpg" />
+		<meta property="og:image:alt" content="Formation Power BI" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Formation Power BI — Mustapha MANAD" />
+		<meta
+			name="twitter:description"
+			content="Programme, objectifs et démo Power BI pour vos équipes." />
+		<meta name="twitter:image" content="assets/youtube_v2/banner.jpg" />
+		<meta
+			name="theme-color"
+			content="#f7f9fc"
+			media="(prefers-color-scheme: light)" />
+		<meta
+			name="theme-color"
+			content="#0c0f14"
+			media="(prefers-color-scheme: dark)" />
+		<link rel="icon" href="assets/youtube_v2/logo.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container">
+				<a href="index.html" class="brand">
+					<img src="assets/youtube_v2/logo.svg" alt="MM" />
+					<span>Mustapha MANAD</span>
+				</a>
+				<nav>
+					<a href="index.html#formations">Formations</a>
+					<a href="index.html#about">À propos de moi</a>
+					<button
+						class="theme-toggle"
+						id="themeToggle"
+						type="button"
+						aria-label="Passer en mode sombre"
+						aria-pressed="false">
+						<svg
+							class="icon icon-moon"
+							viewBox="0 0 24 24"
+							aria-hidden="true"
+							focusable="false">
+							<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+						</svg>
+						<svg
+							class="icon icon-sun"
+							viewBox="0 0 24 24"
+							aria-hidden="true"
+							focusable="false">
+							<circle cx="12" cy="12" r="4" fill="none" />
+							<path
+								d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
+								fill="none" />
+						</svg>
+					</button>
+					<a href="#contact" class="btn-primary">Contact</a>
+				</nav>
+			</div>
+		</header>
 
-    <main id="main">
-      <section class="project-hero">
-        <div class="container">
-          <div>
-            <h1 id="title">Formation</h1>
-            <p class="subtitle" id="subtitle">—</p>
-            <div class="project-meta" id="meta"></div>
-            <div class="actions">
-              <a class="btn-outline" href="index.html#formations">← Retour aux formations</a>
-              <a class="btn-primary" id="ctaEmbed" target="_blank" rel="noopener">Voir la démo Power BI</a>
-            </div>
-          </div>
-          <div class="cover" id="cover"></div>
-        </div>
-      </section>
+		<main id="main">
+			<section class="project-hero">
+				<div class="container">
+					<div>
+						<h1 id="title">Formation</h1>
+						<p class="subtitle" id="subtitle">—</p>
+						<div class="project-meta" id="meta"></div>
+						<div class="actions">
+							<a class="btn-outline" href="index.html#formations"
+								>← Retour aux formations</a
+							>
+							<a
+								class="btn-primary"
+								id="ctaEmbed"
+								target="_blank"
+								rel="noopener"
+								hidden
+								>Voir la démo Power BI</a
+							>
+						</div>
+					</div>
+					<div class="cover" id="cover"></div>
+				</div>
+			</section>
 
-      <section class="project-body">
-        <div class="container">
-          <div>
-            <div class="panel" id="description"></div>
+			<section class="project-body">
+				<div class="container">
+					<div>
+						<div class="panel" id="description"></div>
 
-            <h2>Supports & exercices</h2>
-            <div class="gallery" id="gallery" aria-label="Aperçus de la formation">
-              <div class="track" id="galleryTrack"></div>
-            </div>
-          </div>
-          <div>
-            <h2>Démo Power BI</h2>
-            <div class="embed-wrapper" id="embed"></div>
+						<div class="gallery-block" id="galleryBlock" hidden>
+							<h2>Supports & exercices</h2>
+							<div
+								class="gallery"
+								id="gallery"
+								aria-label="Aperçus de la formation">
+								<div class="track" id="galleryTrack"></div>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="demo-block" id="demoBlock" hidden>
+							<h2>Démo Power BI</h2>
+							<div class="embed-wrapper" id="embed"></div>
+						</div>
 
-            <div class="panel" style="margin-top:14px;">
-              <h2>Objectifs pédagogiques</h2>
-              <ul id="bullets" style="margin:8px 0 0 18px; color: var(--muted);"></ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
+						<div class="panel" style="margin-top: 14px">
+							<h2>Objectifs pédagogiques</h2>
+							<ul
+								id="bullets"
+								style="margin: 8px 0 0 18px; color: var(--muted)"></ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <span>© <span id="year"></span> Mustapha MANAD</span>
-        <span>Formations — Power BI & Data Analytics</span>
-      </div>
-    </footer>
+		<section class="section" id="contact">
+			<div class="container contact-block">
+				<div>
+					<h2>Parlons de votre formation</h2>
+					<p>
+						Disponible pour des formations Power BI, ateliers sur‑mesure et
+						coaching d’équipes.
+					</p>
+				</div>
+				<div class="cta-row">
+					<a class="btn-primary" href="mailto:manadmustapha@gmail.com"
+						>Écrire un email</a
+					>
+					<a class="btn-outline" href="index.html#formations"
+						>Voir les formations</a
+					>
+				</div>
+			</div>
+		</section>
 
-    <script src="theme.js"></script>
-    <script>
-      const $ = (s, r = document) => r.querySelector(s);
-      const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
-      const params = new URLSearchParams(location.search);
-      const id = params.get('id');
+		<footer class="site-footer">
+			<div class="container">
+				<span>© <span id="year"></span> Mustapha MANAD</span>
+				<span>Formations — Power BI & Data Analytics</span>
+			</div>
+		</footer>
 
-      function setYear(){ const yEl = document.getElementById('year'); if(yEl){ yEl.textContent = new Date().getFullYear(); } }
+		<script src="theme.js"></script>
+		<script>
+			const $ = (s, r = document) => r.querySelector(s);
+			const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+			const params = new URLSearchParams(location.search);
+			const id = params.get("id");
 
-      async function loadProjects(){
-        const res = await fetch('projects.json');
-        return await res.json();
-      }
+			function setYear() {
+				const yEl = document.getElementById("year");
+				if (yEl) {
+					yEl.textContent = new Date().getFullYear();
+				}
+			}
 
-      function notFound(){
-        $('#main').innerHTML = '<section class="section"><div class="container"><h2>Formation introuvable</h2><p>Vérifiez le lien ou retournez aux <a href="index.html#formations">formations</a>.</p></div></section>';
-      }
+			async function loadProjects() {
+				const res = await fetch("projects.json");
+				return await res.json();
+			}
 
-      function mountProject(p){
-        $('#title').textContent = p.title;
-        $('#subtitle').textContent = p.subtitle || '';
-        // meta tags
-        const meta = $('#meta');
-        meta.innerHTML = '';
-        (p.tags||[]).forEach(t=>{
-          const el = document.createElement('span');
-          el.className = 'badge';
-          el.textContent = t;
-          meta.appendChild(el);
-        });
-        // cover
-        const cover = $('#cover');
-        cover.innerHTML = `<img src="${p.cover}" alt="${p.title}" style="width:100%; height:100%; object-fit:cover;"/>`;
-        // desc
-        $('#description').innerHTML = `<h2>Programme</h2><p>${p.description || p.excerpt || ''}</p>`;
+			function notFound() {
+				$("#main").innerHTML =
+					'<section class="section"><div class="container"><h2>Formation introuvable</h2><p>Vérifiez le lien ou retournez aux <a href="index.html#formations">formations</a>.</p></div></section>';
+			}
 
-        // bullets
-        const bullets = $('#bullets');
-        bullets.innerHTML = (p.highlights||[]).map(x=>`<li>${x}</li>`).join('');
+			function mountProject(p) {
+				$("#title").textContent = p.title;
+				$("#subtitle").textContent = p.subtitle || "";
+				// meta tags
+				const meta = $("#meta");
+				meta.innerHTML = "";
+				(p.tags || []).forEach((t) => {
+					const el = document.createElement("span");
+					el.className = "badge";
+					el.textContent = t;
+					meta.appendChild(el);
+				});
+				// cover
+				const cover = $("#cover");
+				cover.innerHTML = `<img src="${p.cover}" alt="${p.title}" style="width:100%; height:100%; object-fit:cover;"/>`;
+				// desc
+				const program = p.description || p.excerpt || "";
+				const programHtml = program.includes("<")
+					? program
+					: `<p>${program}</p>`;
+				$("#description").innerHTML = `<h2>Programme</h2><div class="program">${programHtml}</div>`;
 
-        // Gallery
-        const track = $('#galleryTrack');
-        if(p.images && p.images.length){
-          const q = p.images.length;
-          p.images.forEach((src, idx)=>{
-            const slide = document.createElement('div');
-            slide.className = 'slide';
-            slide.style.setProperty('--q', q);
-            slide.style.setProperty('--i', idx + 1);
-            slide.innerHTML = `<img src="${src}" alt="${p.title} - ${idx+1}" loading="lazy">`;
-            track.appendChild(slide);
-          });
-        } else {
-          $('#gallery').style.display = 'none';
-        }
+				// bullets
+				const bullets = $("#bullets");
+				bullets.innerHTML = (p.highlights || [])
+					.map((x) => `<li>${x}</li>`)
+					.join("");
 
-        // Embed
-        const tgt = $('#embed');
-        const cta = $('#ctaEmbed');
-        if(p.powerbi_embed_url){
-          tgt.innerHTML = `<iframe title="${p.title}" src="${p.powerbi_embed_url}" allowfullscreen></iframe>`;
-          cta.href = p.powerbi_embed_url;
-        } else {
-          tgt.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted);">Démo à venir</div>';
-          cta.classList.add('btn-outline');
-          cta.textContent = 'Démo à venir';
-          cta.removeAttribute('href');
-        }
-      }
+				// Gallery
+				const galleryBlock = $("#galleryBlock");
+				const gallery = $("#gallery");
+				const track = $("#galleryTrack");
+				if (galleryBlock && galleryBlock.hasAttribute("hidden")) {
+					// Hidden for now (no assets to show).
+				} else if (gallery && track) {
+					if (p.images && p.images.length) {
+						const q = p.images.length;
+						p.images.forEach((src, idx) => {
+							const slide = document.createElement("div");
+							slide.className = "slide";
+							slide.style.setProperty("--q", q);
+							slide.style.setProperty("--i", idx + 1);
+							slide.innerHTML = `<img src="${src}" alt="${p.title} - ${
+								idx + 1
+							}" loading="lazy">`;
+							track.appendChild(slide);
+						});
+					} else {
+						gallery.classList.add("is-empty");
+						track.innerHTML = '<div class="gallery-empty">a venir...</div>';
+					}
+				}
 
-      (async function(){
-        try{
-          setYear();
-          const projects = await loadProjects();
-          const p = projects.find(x => x.id === id);
-          if(!p) return notFound();
-          mountProject(p);
-        }catch(e){
-          console.error(e);
-          notFound();
-        }
-      })();
-    </script>
-  </body>
-  </html>
+				// Embed
+				const demoBlock = $("#demoBlock");
+				const tgt = $("#embed");
+				const cta = $("#ctaEmbed");
+				if (p.powerbi_embed_url) {
+					if (demoBlock) demoBlock.hidden = false;
+					cta.hidden = false;
+					tgt.innerHTML = `<iframe title="${p.title}" src="${p.powerbi_embed_url}" allowfullscreen></iframe>`;
+					cta.href = p.powerbi_embed_url;
+				}
+			}
+
+			(async function () {
+				try {
+					setYear();
+					const projects = await loadProjects();
+					const p = projects.find((x) => x.id === id);
+					if (!p) return notFound();
+					mountProject(p);
+				} catch (e) {
+					console.error(e);
+					notFound();
+				}
+			})();
+		</script>
+	</body>
+</html>

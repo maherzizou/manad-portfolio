@@ -1174,6 +1174,26 @@ main {
 	border-radius: 12px;
 	padding: 14px;
 }
+.program {
+	color: var(--muted);
+}
+.program p {
+	margin: 0 0 10px;
+}
+.program p:last-child {
+	margin-bottom: 0;
+}
+.program strong {
+	color: var(--text);
+	font-weight: 600;
+}
+.program ul {
+	margin: 8px 0 0 18px;
+	padding: 0;
+}
+.program li {
+	margin: 6px 0;
+}
 
 /* Gallery (auto-run row copies strip logic) */
 .gallery {
@@ -1189,6 +1209,22 @@ main {
 	position: relative;
 	min-width: 600px;
 	height: 100%;
+}
+.gallery.is-empty {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.gallery.is-empty .track {
+	position: static;
+	min-width: 0;
+	width: 100%;
+	height: auto;
+}
+.gallery.is-empty .gallery-empty {
+	color: var(--muted);
+	font-size: 14px;
+	letter-spacing: 0.2px;
 }
 .gallery .slide {
 	position: absolute;
@@ -1247,26 +1283,81 @@ main {
 	}
 }
 @media (max-width: 680px) {
+	.section {
+		padding: 32px 0;
+	}
 	.projects-grid .project-card {
 		grid-column: span 12;
 	}
 	.site-header nav a:not(.btn-primary) {
 		display: none;
 	}
+	.site-header nav {
+		gap: 10px;
+	}
+	.site-header nav .btn-primary {
+		padding: 8px 12px;
+		font-size: 14px;
+	}
+	.theme-toggle {
+		width: 36px;
+		height: 36px;
+	}
+	.hero {
+		height: auto;
+		padding: 24px 0 18px;
+	}
 	.hero-content {
 		flex-direction: column;
 		gap: 20px;
 		align-items: center;
+		height: auto;
 	}
 	.hero-text {
 		text-align: center;
+	}
+	.hero-text .meta {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 8px 12px;
+	}
+	.hero-text .cta-row {
+		justify-content: center;
+		padding-bottom: 12px;
+	}
+	.contact-quick {
+		width: 100%;
+		max-width: 360px;
+		margin-inline: auto;
 	}
 	.hero-visual {
 		order: -1;
 		width: 100%;
 		margin-bottom: 6px;
+		align-items: center;
 	}
 	.hero-visual img {
 		width: min(320px, 70vw);
+	}
+	.strip {
+		--h: 60px;
+	}
+	.strip .chip {
+		padding-inline: 12px;
+	}
+	.strip .chip img {
+		width: 32px;
+		height: 32px;
+	}
+	.skills {
+		grid-template-columns: 1fr;
+	}
+	.contact-block {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.contact-block .cta-row {
+		width: 100%;
+		justify-content: flex-start;
 	}
 }
