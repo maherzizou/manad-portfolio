@@ -20,6 +20,31 @@
         <nav>
           <a href="index.html#projects">Projets</a>
           <a href="index.html#about">À propos</a>
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Passer en mode clair"
+            aria-pressed="true">
+            <svg
+              class="icon icon-moon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false">
+              <path
+                d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+            </svg>
+            <svg
+              class="icon icon-sun"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              focusable="false">
+              <circle cx="12" cy="12" r="4" fill="none" />
+              <path
+                d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
+                fill="none" />
+            </svg>
+          </button>
           <a href="index.html#contact" class="btn-primary">Contact</a>
         </nav>
       </div>
@@ -71,6 +96,7 @@
       </div>
     </footer>
 
+    <script src="theme.js"></script>
     <script>
       const $ = (s, r = document) => r.querySelector(s);
       const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
