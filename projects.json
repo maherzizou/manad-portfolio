@@ -1,109 +1,133 @@
 [
-	{
-		"id": "football-analysis",
-		"title": "Analyse Joueur Football (Power BI)",
-		"subtitle": "Performance, xG, tirs, passes — thème club",
-		"excerpt": "Dashboard immersif par joueur: KPIs clés, carte de tirs, tendances, avec mise en forme conditionnelle et couleurs de l\u2019équipe.",
-		"featured": true,
-		"cover": "assets/youtube_v2/slider_1/2.jpg",
-		"images": [
-			"assets/youtube_v2/auto_slider/images/slider2_1.png",
-			"assets/youtube_v2/auto_slider/images/slider2_2.png",
-			"assets/youtube_v2/auto_slider/images/slider2_3.png",
-			"assets/youtube_v2/auto_slider/images/slider2_4.png"
-		],
-		"tags": ["Football Analytics", "DAX", "Power Query"],
-		"highlights": [
-			"Palette dynamique aux couleurs du club",
-			"KPIs: buts, passes d\u00E9cisives, xG, xA",
-			"Segmentation par poste et comp\u00E9tition",
-			"Pages mobiles optimis\u00E9es"
-		],
-		"description": "Un rapport orient\u00E9 scouting qui met en avant la performance d\u2019un joueur (ou d\u2019un effectif), avec vues th\u00E9matiques, filtres intuitifs et navigation guid\u00E9e. DAX pour calculs avanc\u00E9s xG/xA, mesures saisonni\u00E8res et rolling averages.",
-		"powerbi_embed_url": ""
-	},
-	{
-		"id": "logistics-kpis",
-		"title": "Logistique KPI — Suivi Op\u00E9rationnel",
-		"subtitle": "Adh\u00E9rence au planning, PCT, stock coverage",
-		"excerpt": "Pilotage visuel des KPIs supply: alerting couleur, drill-through ateliers/lignes et journaux d\u2019anomalies.",
-		"featured": true,
-		"cover": "assets/youtube_v2/slider_1/1.jpg",
-		"images": [
-			"assets/youtube_v2/auto_slider/images/slider1_1.png",
-			"assets/youtube_v2/auto_slider/images/slider1_5.png",
-			"assets/youtube_v2/auto_slider/images/slider1_8.png"
-		],
-		"tags": ["KPI", "Planning", "Stock"],
-		"highlights": [
-			"Alerting seuils & codes couleur",
-			"Drill-through vers lignes et OF",
-			"Comparatifs hebdo/mensuel S&OP"
-		],
-		"description": "Rapport op\u00E9rationnel pour managers supply: PCT, adh\u00E9rence au plan, couverture de stock, goulots de production. Mise en qualit\u00E9 des donn\u00E9es et performances optimis\u00E9es (aggregations, incremental refresh selon besoin).",
-		"powerbi_embed_url": ""
-	},
-	{
-		"id": "ekanban-qr",
-		"title": "Tra\u00E7abilit\u00E9 e\u2011Kanban par QR",
-		"subtitle": "Flux mati\u00E8res s\u00E9curis\u00E9s par QR code",
-		"excerpt": "e\u2011Kanban: QR codes pour fiabiliser l\u2019approvisionnement des lignes et tracer les mouvements.",
-		"featured": false,
-		"cover": "assets/youtube_v2/banner.jpg",
-		"images": [
-			"assets/youtube_v2/auto_slider/images/slider2_6.png",
-			"assets/youtube_v2/auto_slider/images/slider2_7.png",
-			"assets/youtube_v2/auto_slider/images/slider2_8.png"
-		],
-		"tags": ["e-Kanban", "QR", "Process"],
-		"highlights": [
-			"Tra\u00E7abilit\u00E9 scannable jusqu\u2019\u00E0 la ligne",
-			"Indicateurs temps r\u00E9el d\u2019appros",
-			"R\u00E9duction erreurs logistiques"
-		],
-		"description": "Mise en place d\u2019un e\u2011Kanban bas\u00E9 QR: standardisation, scans, et pilotage visuel sous Power BI pour suivre lead time, ruptures et taux de service.",
-		"powerbi_embed_url": ""
-	},
-	{
-		"id": "master-data-95",
-		"title": "Qualit\u00E9 Master Data — 95%",
-		"subtitle": "Accurateness et contr\u00F4les de coh\u00E9rence",
-		"excerpt": "Projet Master Data: gouvernance, contr\u00F4les automatiques, suivi des corrections.",
-		"featured": false,
-		"cover": "assets/youtube_v2/Untitled-1.png",
-		"images": [
-			"assets/youtube_v2/auto_slider/images/slider1_2.png",
-			"assets/youtube_v2/auto_slider/images/slider1_3.png",
-			"assets/youtube_v2/auto_slider/images/slider1_4.png"
-		],
-		"tags": ["Master Data", "Contr\u00F4le", "Qualit\u00E9"],
-		"highlights": [
-			"R\u00E8gles de validation automatiques",
-			"Suivi taux d\u2019erreurs par entit\u00E9",
-			"Tableau de bord correctifs"
-		],
-		"description": "Standardisation et contr\u00F4les automatis\u00E9s pour atteindre 95% de qualit\u00E9 de donn\u00E9es: suivi de la conformit\u00E9 et des plans d\u2019actions.",
-		"powerbi_embed_url": ""
-	},
-	{
-		"id": "stock-coverage",
-		"title": "Couverture de stock & S&OP",
-		"subtitle": "Visibilit\u00E9 multi-niveaux des stocks",
-		"excerpt": "Vue couverture stock: seuils cibles, alertes, projection de conso et ruptures.",
-		"featured": false,
-		"cover": "assets/youtube_v2/slider_1/3.jpg",
-		"images": [
-			"assets/youtube_v2/auto_slider/images/slider1_6.png",
-			"assets/youtube_v2/auto_slider/images/slider1_7.png",
-			"assets/youtube_v2/auto_slider/images/slider1_9.png"
-		],
-		"tags": ["Stock", "S&OP", "Simulation"],
-		"highlights": [
-			"Projection conso & lead times",
-			"Alertes couverture par classe ABC",
-			"Axes hi\u00E9rarchiques multi-sites"
-		],
-		"description": "Report stock coverage pour piloter la s\u00E9curit\u00E9 d\u2019approvisionnement: calcul des jours de couverture, seuils dynamiques et comparaison au plan.",
-		"powerbi_embed_url": ""
-	}
+  {
+    "id": "powerbi-fondamentaux",
+    "title": "Power BI Fondamentaux",
+    "subtitle": "Prise en main, mod\u00e8le de donn\u00e9es, premi\u00e8res visualisations",
+    "excerpt": "Formation pour d\u00e9marrer rapidement: import, mod\u00e9lisation simple, visuels et partage.",
+    "featured": true,
+    "cover": "assets/youtube_v2/slider_1/2.jpg",
+    "images": [
+      "assets/youtube_v2/auto_slider/images/slider2_1.png",
+      "assets/youtube_v2/auto_slider/images/slider2_2.png",
+      "assets/youtube_v2/auto_slider/images/slider2_3.png",
+      "assets/youtube_v2/auto_slider/images/slider2_4.png"
+    ],
+    "tags": [
+      "D\u00e9butant",
+      "Mod\u00e9lisation",
+      "Visualisations"
+    ],
+    "highlights": [
+      "Prise en main de Power BI Desktop",
+      "Construction d'un mod\u00e8le clair",
+      "Visuels essentiels et bonnes pratiques",
+      "Publication dans Power BI Service"
+    ],
+    "description": "Formation id\u00e9ale pour d\u00e9buter: installation, import de donn\u00e9es, transformations simples, mod\u00e8le en \u00e9toile et cr\u00e9ation de visuels. Exercices guid\u00e9s et cas pratiques orient\u00e9s m\u00e9tier.",
+    "powerbi_embed_url": ""
+  },
+  {
+    "id": "power-query-modelisation",
+    "title": "Power Query & Mod\u00e9lisation",
+    "subtitle": "Nettoyage, transformations, mod\u00e8le en \u00e9toile",
+    "excerpt": "Ma\u00eetriser l'ETL Power Query et structurer un mod\u00e8le performant.",
+    "featured": true,
+    "cover": "assets/youtube_v2/slider_1/1.jpg",
+    "images": [
+      "assets/youtube_v2/auto_slider/images/slider1_1.png",
+      "assets/youtube_v2/auto_slider/images/slider1_5.png",
+      "assets/youtube_v2/auto_slider/images/slider1_8.png"
+    ],
+    "tags": [
+      "Power Query",
+      "ETL",
+      "Mod\u00e9lisation"
+    ],
+    "highlights": [
+      "Nettoyage avanc\u00e9 et fonctions utiles",
+      "Requ\u00eates param\u00e9tr\u00e9es et rafra\u00eechissement",
+      "Relations et cardinalit\u00e9s",
+      "Optimisation des performances"
+    ],
+    "description": "Approfondissement Power Query: transformations, fonctions, erreurs, fusion/append. Mod\u00e9lisation: sch\u00e9ma en \u00e9toile, mesures de base, bonnes pratiques de performance.",
+    "powerbi_embed_url": ""
+  },
+  {
+    "id": "dax-kpi-avances",
+    "title": "DAX & KPI avanc\u00e9s",
+    "subtitle": "Mesures, time intelligence, indicateurs m\u00e9tiers",
+    "excerpt": "Construire des mesures fiables et des KPI robustes pour vos \u00e9quipes.",
+    "featured": false,
+    "cover": "assets/youtube_v2/banner.jpg",
+    "images": [
+      "assets/youtube_v2/auto_slider/images/slider2_6.png",
+      "assets/youtube_v2/auto_slider/images/slider2_7.png",
+      "assets/youtube_v2/auto_slider/images/slider2_8.png"
+    ],
+    "tags": [
+      "DAX",
+      "KPI",
+      "Time intelligence"
+    ],
+    "highlights": [
+      "Mesures vs colonnes calcul\u00e9es",
+      "Calendrier et time intelligence",
+      "KPI personnalis\u00e9s par m\u00e9tier",
+      "Bonnes pratiques de performance"
+    ],
+    "description": "Approche progressive du DAX: contexte d'\u00e9valuation, variables, fonctions cl\u00e9s, time intelligence. Cas pratiques pour cr\u00e9er des KPI adapt\u00e9s \u00e0 vos besoins.",
+    "powerbi_embed_url": ""
+  },
+  {
+    "id": "dashboard-storytelling",
+    "title": "Dashboarding & Storytelling",
+    "subtitle": "Design, lisibilit\u00e9, parcours utilisateur",
+    "excerpt": "Concevoir des rapports clairs, coh\u00e9rents et orient\u00e9s d\u00e9cision.",
+    "featured": false,
+    "cover": "assets/youtube_v2/Untitled-1.png",
+    "images": [
+      "assets/youtube_v2/auto_slider/images/slider1_2.png",
+      "assets/youtube_v2/auto_slider/images/slider1_3.png",
+      "assets/youtube_v2/auto_slider/images/slider1_4.png"
+    ],
+    "tags": [
+      "Design",
+      "UX",
+      "Storytelling"
+    ],
+    "highlights": [
+      "Hi\u00e9rarchie visuelle et lisibilit\u00e9",
+      "Choix des visuels",
+      "Navigation et interaction",
+      "Guidage par les couleurs"
+    ],
+    "description": "M\u00e9thode de conception centr\u00e9e utilisateur: structure de page, narration, choix de visuels, coh\u00e9rence graphique. Atelier refonte de rapports existants.",
+    "powerbi_embed_url": ""
+  },
+  {
+    "id": "powerbi-service-gouvernance",
+    "title": "Power BI Service & Gouvernance",
+    "subtitle": "Workspaces, s\u00e9curit\u00e9, diffusion",
+    "excerpt": "D\u00e9ployer et gouverner Power BI en entreprise en toute confiance.",
+    "featured": false,
+    "cover": "assets/youtube_v2/slider_1/3.jpg",
+    "images": [
+      "assets/youtube_v2/auto_slider/images/slider1_6.png",
+      "assets/youtube_v2/auto_slider/images/slider1_7.png",
+      "assets/youtube_v2/auto_slider/images/slider1_9.png"
+    ],
+    "tags": [
+      "Power BI Service",
+      "S\u00e9curit\u00e9",
+      "Gouvernance"
+    ],
+    "highlights": [
+      "Workspaces et apps",
+      "S\u00e9curit\u00e9 (RLS)",
+      "Partage et permissions",
+      "Cycle de vie des rapports"
+    ],
+    "description": "Mise en place des bonnes pratiques: workspaces, r\u00f4les, RLS, dataflows, publication et gouvernance. Checklists pour une adoption durable.",
+    "powerbi_embed_url": ""
+  }
 ]

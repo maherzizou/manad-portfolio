@@ -23,14 +23,14 @@ function getFallbackProjects() {
 	];
 	return covers.map((src, i) => ({
 		id: `tpl-${i + 1}`,
-		title: `Template ${i + 1}`,
-		subtitle: "Exemple visuel",
-		excerpt: "Projet exemple (remplacer par vos dashboards).",
+		title: `Formation ${i + 1}`,
+		subtitle: "Exemple de module",
+		excerpt: "Formation exemple (à personnaliser selon vos offres).",
 		featured: true,
 		cover: src,
 		images: [src],
-		tags: ["Template"],
-		highlights: ["Visuel de démonstration"],
+		tags: ["Formation"],
+		highlights: ["Plan de formation à personnaliser"],
 		description: "Données de démonstration utilisées localement.",
 	}));
 }
@@ -105,7 +105,7 @@ function mountGrid(projects) {
         <div class="actions">
           <a class="btn-outline" href="project.html?id=${encodeURIComponent(
 						p.id
-					)}">Voir le projet</a>
+					)}">Voir la formation</a>
         </div>
       </div>
     </article>
@@ -275,6 +275,6 @@ function setupTags() {
 		setupTags();
 		setupContactFX();
 	} catch (err) {
-		console.error("Failed to init portfolio:", err);
+		console.error("Failed to init site:", err);
 	}
 })();

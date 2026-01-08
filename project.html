@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projet — Power BI</title>
+    <title>Formation — Power BI</title>
     <link rel="icon" href="assets/youtube_v2/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
           <span>Mustapha MANAD</span>
         </a>
         <nav>
-          <a href="index.html#projects">Projets</a>
+          <a href="index.html#formations">Formations</a>
           <a href="index.html#about">À propos</a>
           <button
             class="theme-toggle"
@@ -54,12 +54,12 @@
       <section class="project-hero">
         <div class="container">
           <div>
-            <h1 id="title">Projet</h1>
+            <h1 id="title">Formation</h1>
             <p class="subtitle" id="subtitle">—</p>
             <div class="project-meta" id="meta"></div>
             <div class="actions">
-              <a class="btn-outline" href="index.html#projects">← Retour aux projets</a>
-              <a class="btn-primary" id="ctaEmbed" target="_blank" rel="noopener">Ouvrir dans Power BI</a>
+              <a class="btn-outline" href="index.html#formations">← Retour aux formations</a>
+              <a class="btn-primary" id="ctaEmbed" target="_blank" rel="noopener">Voir la démo Power BI</a>
             </div>
           </div>
           <div class="cover" id="cover"></div>
@@ -71,17 +71,17 @@
           <div>
             <div class="panel" id="description"></div>
 
-            <h2>Galerie</h2>
-            <div class="gallery" id="gallery" aria-label="Aperçus du dashboard">
+            <h2>Supports & exercices</h2>
+            <div class="gallery" id="gallery" aria-label="Aperçus de la formation">
               <div class="track" id="galleryTrack"></div>
             </div>
           </div>
           <div>
-            <h2>Embed Power BI</h2>
+            <h2>Démo Power BI</h2>
             <div class="embed-wrapper" id="embed"></div>
 
             <div class="panel" style="margin-top:14px;">
-              <h2>Points clés</h2>
+              <h2>Objectifs pédagogiques</h2>
               <ul id="bullets" style="margin:8px 0 0 18px; color: var(--muted);"></ul>
             </div>
           </div>
@@ -92,7 +92,7 @@
     <footer class="site-footer">
       <div class="container">
         <span>© <span id="year"></span> Mustapha MANAD</span>
-        <span>Portefolio — Power BI & Supply Chain</span>
+        <span>Formations — Power BI & Data Analytics</span>
       </div>
     </footer>
 
@@ -111,7 +111,7 @@
       }
 
       function notFound(){
-        $('#main').innerHTML = '<section class="section"><div class="container"><h2>Projet introuvable</h2><p>Vérifiez le lien ou retournez aux <a href="index.html#projects">projets</a>.</p></div></section>';
+        $('#main').innerHTML = '<section class="section"><div class="container"><h2>Formation introuvable</h2><p>Vérifiez le lien ou retournez aux <a href="index.html#formations">formations</a>.</p></div></section>';
       }
 
       function mountProject(p){
@@ -130,7 +130,7 @@
         const cover = $('#cover');
         cover.innerHTML = `<img src="${p.cover}" alt="${p.title}" style="width:100%; height:100%; object-fit:cover;"/>`;
         // desc
-        $('#description').innerHTML = `<h2>Description</h2><p>${p.description || p.excerpt || ''}</p>`;
+        $('#description').innerHTML = `<h2>Programme</h2><p>${p.description || p.excerpt || ''}</p>`;
 
         // bullets
         const bullets = $('#bullets');
@@ -159,9 +159,9 @@
           tgt.innerHTML = `<iframe title="${p.title}" src="${p.powerbi_embed_url}" allowfullscreen></iframe>`;
           cta.href = p.powerbi_embed_url;
         } else {
-          tgt.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted);">Lien d\'intégration à venir</div>';
+          tgt.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted);">Démo à venir</div>';
           cta.classList.add('btn-outline');
-          cta.textContent = 'Lien à venir';
+          cta.textContent = 'Démo à venir';
           cta.removeAttribute('href');
         }
       }
