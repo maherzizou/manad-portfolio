@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="light">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,21 +21,20 @@
 				</a>
 				<nav>
 					<a href="#formations">Formations</a>
-					<a href="#about">À propos</a>
+					<a href="#about">À propos de moi</a>
 					<a href="#skills">Compétences</a>
 					<button
 						class="theme-toggle"
 						id="themeToggle"
 						type="button"
-						aria-label="Passer en mode clair"
-						aria-pressed="true">
+						aria-label="Passer en mode sombre"
+						aria-pressed="false">
 						<svg
 							class="icon icon-moon"
 							viewBox="0 0 24 24"
 							aria-hidden="true"
 							focusable="false">
-							<path
-								d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+							<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
 						</svg>
 						<svg
 							class="icon icon-sun"
@@ -146,23 +145,10 @@
 				</div>
 			</section>
 
-			<!-- Featured trainings quick strip (auto slider style) -->
-			<section class="strip" aria-label="Formations en vedette">
+			<!-- Mots-clés (auto slider style) -->
+			<section class="strip" aria-label="Mots-clés">
 				<div class="strip-track" id="stripTrack">
 					<!-- Items injected by JS -->
-				</div>
-			</section>
-
-			<!-- Projects grid -->
-			<section class="section" id="formations">
-				<div class="container">
-					<h2>Formations Power BI</h2>
-					<p class="section-sub">
-						Programmes modulaires, cas métiers et montée en compétences rapide.
-					</p>
-					<div class="projects-grid" id="projectsGrid">
-						<!-- Cards injected by JS -->
-					</div>
 				</div>
 			</section>
 
@@ -172,10 +158,11 @@
 					<div class="about-text" data-reveal="left">
 						<h2>À propos</h2>
 						<p>
-							Formateur Power BI spécialisé en data analytics et supply chain.
-							J’accompagne les équipes dans la prise en main, la modélisation et
-							la création de rapports performants. Objectif: autonomie,
-							bonnes pratiques et résultats mesurables.
+							Supply Chain Analyst avec une expérience dans les industries
+							pharmaceutique et automobile. Missions clés: optimisation des
+							flux, amélioration des processus et monitoring des KPI. Concepteur
+							de dashboards Power BI (PCT, planning, stock, traçabilité
+							e‑Kanban).
 						</p>
 						<ul class="exp-list">
 							<li
@@ -190,8 +177,8 @@
 								<div class="exp-body">
 									<div class="exp-head"><b>Forvia (USA 🇺🇸)</b></div>
 									<p>
-										Ateliers KPI logistiques, e‑Kanban QR, dashboards
-										opérationnels, formation d’équipes.
+										Master Data 95% accuracy, e‑Kanban QR, dashboards
+										logistiques, formations.
 									</p>
 								</div>
 							</li>
@@ -207,8 +194,8 @@
 								<div class="exp-body">
 									<div class="exp-head"><b>Sanofi</b></div>
 									<p>
-										Formation KPI planning/stock, aide à la décision, supply
-										digitale, reporting Power BI.
+										Pilotage PCT, outils d’aide à la décision, stratégie supply
+										digitale, KPI planning/stock.
 									</p>
 								</div>
 							</li>
@@ -227,8 +214,8 @@
 								<div class="exp-body">
 									<div class="exp-head"><b>Continental</b></div>
 									<p>
-										Gouvernance data, standards master data, coaching sur la
-										qualité et la cohérence.
+										Procédure master data client/article, contrôle & validation,
+										cohérence inter‑équipes.
 									</p>
 								</div>
 							</li>
@@ -356,6 +343,19 @@
 				</div>
 			</section>
 
+			<!-- Formations grid -->
+			<section class="section" id="formations">
+				<div class="container">
+					<h2>Formations Power BI</h2>
+					<p class="section-sub">
+						Programmes modulaires, cas métiers et montée en compétences rapide.
+					</p>
+					<div class="projects-grid" id="projectsGrid">
+						<!-- Cards injected by JS -->
+					</div>
+				</div>
+			</section>
+
 			<!-- Contact -->
 			<section class="section" id="contact">
 				<div class="container contact-block">
@@ -374,6 +374,26 @@
 					</div>
 				</div>
 			</section>
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
 		</main>
 
 		<footer class="site-footer">

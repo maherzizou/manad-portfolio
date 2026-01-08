@@ -35,22 +35,71 @@ function getFallbackProjects() {
 	}));
 }
 
+const stripItems = [
+	{
+		label: "Chaîne logistique",
+		image: "assets/image-competence1.jpg",
+	},
+	{
+		label: "Transformation digitale",
+		image: "assets/image-competence2.jpg",
+	},
+	{
+		label: "Power BI",
+		image: "assets/image-competence3.jpg",
+	},
+	{
+		label: "Amélioration continue",
+		image: "assets/image-competence4.jpg",
+	},
+	{
+		label: "Pilotage KPI",
+		image: "assets/image-competence1.jpg",
+	},
+	{
+		label: "Data analytics",
+		image: "assets/image-competence2.jpg",
+	},
+	{
+		label: "Qualité des données",
+		image: "assets/image-competence3.jpg",
+	},
+	{
+		label: "Reporting & dashboards",
+		image: "assets/image-competence4.jpg",
+	},
+	{
+		label: "Planification & S&OP",
+		image: "assets/image-competence1.jpg",
+	},
+	{
+		label: "Excellence opérationnelle",
+		image: "assets/image-competence2.jpg",
+	},
+	{
+		label: "Automatisation",
+		image: "assets/image-competence3.jpg",
+	},
+	{
+		label: "Gestion de la performance",
+		image: "assets/image-competence4.jpg",
+	},
+];
+
 // Running strip chips (auto slider style)
-function mountStrip(projects) {
-	const base = projects.filter((p) => p.featured).length
-		? projects.filter((p) => p.featured)
-		: projects;
+function mountStrip() {
 	const track = $("#stripTrack");
 	if (!track) return;
+	track.setAttribute("role", "list");
 
 	// Build a single sequence in memory
 	track.innerHTML = "";
 	const frag = document.createDocumentFragment();
-	const chips = base.map((p) => {
-		const chip = document.createElement("a");
-		chip.href = `project.html?id=${encodeURIComponent(p.id)}`;
+	const chips = stripItems.map((item) => {
+		const chip = document.createElement("div");
 		chip.className = "chip";
-		chip.innerHTML = `<img src="${p.cover}" alt="${p.title}"><span>${p.title}</span>`;
+		chip.setAttribute("role", "listitem");
+		chip.innerHTML = `<img src="${item.image}" alt="${item.label}"><span>${item.label}</span>`;
 		return chip;
 	});
 	chips.forEach((ch) => frag.appendChild(ch));
@@ -75,7 +124,7 @@ function mountStrip(projects) {
 	// Compute duration based on distance moved each loop (half of total width)
 	const totalWidth = track.scrollWidth;
 	const distancePerLoop = totalWidth / 2; // px (because keyframes go to -50%)
-	const speed = 140; // px per second
+	const speed = 80; // px per second
 	const duration = Math.max(18, Math.round(distancePerLoop / speed));
 
 	// Start animation only when ready
@@ -268,7 +317,7 @@ function setupTags() {
 (async function () {
 	try {
 		const projects = await loadProjects();
-		mountStrip(projects);
+		mountStrip();
 		mountGrid(projects);
 		setupReveal();
 		setupMeta();

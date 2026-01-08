@@ -393,6 +393,8 @@ main {
 	border: 0; /* no gaps between items */
 	animation: none !important;
 	white-space: nowrap;
+	user-select: none;
+	cursor: default;
 }
 .strip .chip img {
 	width: 40px;
